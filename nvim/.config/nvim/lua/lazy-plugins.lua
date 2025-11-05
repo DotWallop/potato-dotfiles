@@ -42,6 +42,17 @@ require('lazy').setup({
   --        end,
   --    }
   {
+    'esmuellert/nvim-eslint',
+    config = function()
+      require('nvim-eslint').setup {
+        diagnostics = {
+          enable = true,
+          run_on = 'type',
+        },
+      }
+    end,
+  },
+  {
     'jiaoshijie/undotree',
     dependencies = { 'nvim-lua/plenary.nvim' },
     ---@module 'undotree.collector'
