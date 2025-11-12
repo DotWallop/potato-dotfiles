@@ -80,6 +80,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 PROJECT_PATHS=(~/git)
+CDPATH=~/git
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
