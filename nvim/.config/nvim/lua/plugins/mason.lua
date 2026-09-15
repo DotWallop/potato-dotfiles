@@ -3,7 +3,7 @@ return {
   {
     'mason-org/mason-lspconfig.nvim',
     opts = {
-      ensure_installed = { "lua_ls", "rust_analyzer", "oxfmt", "oxlint", "ts_ls", "tsgo" },
+      ensure_installed = { "lua_ls", "rust_analyzer", "oxfmt", "oxlint", "ts_ls" },
       automatic_enable = false
 
     },
